@@ -1,0 +1,9 @@
+contextily
+geopandas
+google-cloud
+holidays
+ipykernel
+matplotlib
+seaborn
+plotly
+nbformat
