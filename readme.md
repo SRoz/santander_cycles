@@ -3,6 +3,13 @@
 This repository is dedicated to the analysis of the Santander London Bicycle Hire data. It includes Python scripts for data retrieval, preprocessing, and analysis to gain insights into bicycle hire patterns.
 
 ## Repository Structure 📁
+- `data`: All data in here, not committed 🖥️.
+
+- `images`: Dall-E murals
+
+- `notebooks`: Runs the analysis & modelling📒
+  - `01 Exploratory Data Analysis.ipynb` 👀🚲
+  - `02 Modelling.ipynb` 🔮
 
 - `src/models/`: Contains predictive models for forecasting bicycle hire demand 📈.
   - `VBaseline.py`: Implements a baseline dummy regressor model that predicts average hourly hire volumes per station 🏙️.
@@ -13,8 +20,6 @@ This repository is dedicated to the analysis of the Santander London Bicycle Hir
   - `ingest.py`: Retrieves bicycle hire and station data from BigQuery and stores it in a local format 💾.
   - `features.py`: Augments the data with temporal features and flags for UK bank holidays 🇬🇧🎉.
   - `transform.py`: Aggregates hire data into hourly intervals and fills gaps to maintain a continuous time series ⏳.
-
-
 
 ## Usage 🛠️
 
