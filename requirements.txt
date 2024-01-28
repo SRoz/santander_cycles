@@ -1,9 +1,10 @@
 contextily
+db-dtypes
 geopandas
-google-cloud
+google-cloud-bigquery
 holidays
 ipykernel
 matplotlib
-seaborn
-plotly
 nbformat
+plotly
+seaborn
